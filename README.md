@@ -1,8 +1,4 @@
-Welcome to Planning Homework for CSE 571 Artificial Intelligence, ASU.
-
-Follow the following steps to clone this repository in your ~/catkin_ws/src folder.
-
-1. cd ~/catkin_ws/src 
-2. git clone https://github.com/AAIR-lab/planning.git
-
-Then launch ~/catkin_ws/src/planning/doc/index.html using any web browser. It contains description of the assignment tasks and instructions on how to complete them.
+This repo consists of a path planning algorithm implementation using PDDL to make a robot pick and place books of different sizes.
+The robot is simulated in Gazebo. The communication between the scripts and robot is through ROS. 
+The domain.pddl consists of the path plan
+The refinement.py generates the actions from the path planned using pddl and communicates it to the bot.
